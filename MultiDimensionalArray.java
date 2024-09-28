@@ -8,9 +8,18 @@ public class MultiDimensionalArray {
                 nums[i][j]= (int)(Math.random()*10); //type casted random numbers to int 
                 System.out.println(nums[i][j]);
             }
-            System.out.println();
         }
 
+        for(int i=0; i<3;i++) //rows
+        {
+            for(int j=0;j<4;j++) //columns
+            {
+    
+                System.out.println(" ");
+                System.out.println(nums[i][j]);
+            }
+            System.out.println();
+        }
         // for(int n[]:nums) //For each loop
         // {
 
