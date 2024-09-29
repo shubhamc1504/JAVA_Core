@@ -15,7 +15,7 @@ class Human
     public void setAge(int a) //Creating a method setAge() to set age with no return type.
     {
 
-        age  = a;
+        age  = a; //Here a is a local variable whereas age is an instance variable
     }
 
     public String getName() //Creating a method getName() within the same class to fetch data with return type String.
@@ -25,7 +25,7 @@ class Human
 
     public void setName(String n) //Creating a method setName() within the same class to pass data with no return type.
     {
-        name = n;
+        name = n; //Here n is a local variable whereas name is an instance variable
     }
 }
 
