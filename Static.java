@@ -9,6 +9,12 @@ class Mobile
     {
         System.out.println(name + " : " + brand + " : " + price);
     }
+
+    public static void show1(Mobile obj1) //Creating static method show1()
+    {
+        System.out.println(name); // we cannot use non static variable using static method directly
+        System.out.println(name + " : " + obj1.brand + " : " + obj1.price); // we can indirectly use the non static variable 
+    }
 }
 
 public class Static {
@@ -26,6 +32,7 @@ public class Static {
     
         obj1.show(); //calling method and passing obj1 data
         obj2.show(); //calling method and passing obj2 data
+        Mobile.show1(obj1); // we can call static method directly using class name
 
     }
     
