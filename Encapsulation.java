@@ -16,6 +16,7 @@ class Human
     {
 
         age  = a; //Here a is a local variable whereas age is an instance variable
+        //this.age = a; //this is a keyword which represent the current obj (obj which is calling method)
     }
 
     public String getName() //Creating a method getName() within the same class to fetch data with return type String.
