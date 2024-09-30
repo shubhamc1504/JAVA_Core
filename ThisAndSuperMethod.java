@@ -1,3 +1,6 @@
+//this() executes constructor of same class
+//super() executes constructor of super class
+
 class A //Extends Object class by default
 {
 
