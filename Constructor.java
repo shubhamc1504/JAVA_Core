@@ -34,7 +34,7 @@ class Human{
 public class Constructor {
 public static void main(String[] args) {
         Human ob = new Human(); // here constructor is called
-        Human ob1 = new Human(); //here constructor is called
+        //Human ob1 = new Human(); //here constructor is called
         // Assigning value with the help of methods
         // ob.setAge(26);
         // ob.setName("Shubham");

@@ -34,6 +34,6 @@ class B extends A
 public class ThisAndSuperMethod {
     public static void main(String[] args) {
         //B obj1 = new B(); //Default Constructor
-        B obj2 = new B(5); //Default Constructor
+        //B obj2 = new B(5); //Default Constructor
     }
 }
