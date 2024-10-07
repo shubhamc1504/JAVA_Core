@@ -1,1 +1,1 @@
-Basic Java Core concepts used in day-to-day life.
+Basic Java Core concepts for beginners used in day-to-day life.
